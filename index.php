@@ -99,7 +99,7 @@
                       </a>
                   </li>
 				  <li class="sub-menu">
-                      <a href="javascript:;" class="">
+                      <a href="view_posts.php" class="">
                           <i class="fa fa-eye" aria-hidden="true"></i>
                           <span>View News</span>
                           </a>                      
@@ -113,13 +113,13 @@
                       
                   </li>
                   <li>
-                      <a class="" href="widgets.html">
+                      <a class="" href="insert_blog.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
                           <span>Add Blog Posts</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="chart-chartjs.html">
+                      <a class="" href="view_blog.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
                           <span>View Blog Post</span>
                           
@@ -128,7 +128,7 @@
                   </li>
                              
                   <li class="sub-menu">
-                      <a href="javascript:;" class="">
+                      <a href="logout.php" class="">
                           <i class="fa fa-sign-out" aria-hidden="true"></i>
                           <span>Logout</span>
                           
