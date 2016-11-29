@@ -105,7 +105,7 @@
                           </a>                      
                   </li>       
                   <li class="sub-menu">
-                      <a href="javascript:;" class="">
+                      <a href="insert_post.php" class="">
                           <i class="fa fa-plus" aria-hidden="true"></i>
                           <span>Add News</span>
                          
