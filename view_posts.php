@@ -152,8 +152,7 @@
             <li><i class="fa fa-laptop"></i>View All Posts</li> 
             </ol>               
 
-
-
+<div class="table-responsive"> 
 <table class="table">
  <thead> 
 <tr>
@@ -202,6 +201,7 @@ while ($row=mysqli_fetch_array($run)) {
 <?php } ?>
 	
 </table>
+</div>
 
 </div>
       </div>
