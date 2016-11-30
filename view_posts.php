@@ -164,10 +164,9 @@
 	<th>Post Image</th>
 	<th>Post Content</th>
 	<th>Delete Post</th>
-	
-</tr> 
+	</tr> 
 </thead>
-
+ <tbody> 
 <?php 
 include("includes/connect.php");
 $query = "select * from posts order by 1 DESC";
@@ -196,6 +195,7 @@ while ($row=mysqli_fetch_array($run)) {
 	
 </tr> 
 <?php } ?>
+</tbody>
 	
 </table>
 </div>
