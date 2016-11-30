@@ -154,12 +154,8 @@
 
 <div class="table-responsive"> 
 <table class="table">
+ <caption>View All Posts</caption> 
  <thead> 
-<tr>
-	<td colspan="8" align="center" bgcolor="white"><h1>View All Posts</h1></td>
-</tr>
-</thead>
-
 <tr bgcolor="orange">
 	<th>Post No</th>
 	<th>Post Date</th>
@@ -170,6 +166,7 @@
 	<th>Delete Post</th>
 	
 </tr> 
+</thead>
 
 <?php 
 include("includes/connect.php");
