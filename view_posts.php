@@ -155,9 +155,11 @@
 
 
 <table class="table">
+ <thead> 
 <tr>
 	<td colspan="8" align="center" bgcolor="white"><h1>View All Posts</h1></td>
 </tr>
+</thead>
 
 <tr bgcolor="orange">
 	<th>Post No</th>
