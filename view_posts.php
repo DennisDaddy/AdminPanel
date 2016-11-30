@@ -183,12 +183,12 @@ while ($row=mysqli_fetch_array($run)) {
 
 ?>
 
-<tr align="center" > 
+<tr align="center"> 
 	<td><?php echo $post_id; ?></td>
 	<td><?php echo $post_date; ?></td>
 	<td><?php echo $post_author; ?></td>
 	<td><?php echo $post_title; ?></td>
-	<td><img src="../images2/uploads/<?php echo $post_image; ?>"width="80" height="80" </td>
+	<td><img src="../images2/uploads/<?php echo $post_image; ?>" width="80" height="80"></td>
 	<td><?php echo $post_content; ?></td>
 	<td><a href="delete.php?del=<?php echo $post_id; ?>">Delete</a></td>
 	
