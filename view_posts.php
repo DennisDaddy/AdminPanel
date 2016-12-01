@@ -148,7 +148,7 @@
         <div class="col-lg-12">
          
           <ol class="breadcrumb">
-            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+            <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
             <li><i class="fa fa-laptop"></i>View All Posts</li> 
             </ol>               
 
