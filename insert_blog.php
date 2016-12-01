@@ -160,6 +160,7 @@
 
 <body>
 <form method="post" action="insert_blog.php" enctype="multipart/form-data">
+ <div class="table-responsive"> 
 	<table  width="600" align="center" border="3">
 	<tr>
 		<td align="center" bgcolor="white" colspan="6"><h1>Insert New Blog Post Here</h1></td>
@@ -195,6 +196,7 @@
 	</tr>
 		
 	</table>
+	</div>
 </form>
 
 </div>
