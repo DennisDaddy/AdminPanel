@@ -152,8 +152,8 @@
             <li><i class="fa fa-laptop"></i>View All Posts</li> 
             </ol>               
 
-
-<table width="1000" border="3" align="center" bgcolor="pink">
+<div class="table-responsive"> 
+<table class="table" >
 <tr>
 	<td colspan="8" align="center" bgcolor="white"><h1>View All Blog Posts</h1></td>
 </tr>
@@ -226,7 +226,7 @@ while ($row=mysqli_fetch_array($run)) {
     <script src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
     <script src="js/owl.carousel.js" ></script>
     <!-- jQuery full calendar -->
-    <<script src="js/fullcalendar.min.js"></script> <!-- Full Google Calendar - Calendar -->
+    <script src="js/fullcalendar.min.js"></script> <!-- Full Google Calendar - Calendar -->
   <script src="assets/fullcalendar/fullcalendar/fullcalendar.js"></script>
     <!--script for this page only-->
     <script src="js/calendar-custom.js"></script>
