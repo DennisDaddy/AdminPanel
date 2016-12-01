@@ -32,9 +32,33 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body class="login-img3-body">
 
-</body>
+    <div class="container">
+
+      <form class="login-form" action="index.php">        
+        <div class="login-wrap">
+
+            <p class="login-img"><i class="icon_lock_alt"></i></p>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
+              <input type="text" class="form-control" name="user_name" placeholder="Username" autofocus>
+            </div>
+            <div class="input-group">
+
+                <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                <input type="password" name="user_pass" class="form-control" placeholder="Password">
+            </div>
+            
+            <button class="btn btn-primary btn-lg btn-block" name="login" type="submit">Admin Login</button>
+            
+        </div>
+      </form>
+
+    </div>
+
+
+  </body>
 </html>
 
 <?php
