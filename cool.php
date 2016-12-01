@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Admin Area</title>
+	<title>Admin Login</title>
 </head>
 <body>
 
