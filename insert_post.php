@@ -57,7 +57,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">Admin<span class="lite">Area</span></a>
+            <a href="index.php" class="logo">Admin<span class="lite">Area</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
@@ -80,7 +80,7 @@
                             <div class="log-arrow-up"></div>                          
                     
                             <li>
-                                <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                                <a href="login.php"><i class="icon_key_alt"></i> Log Out</a>
                             </li>
                             
                         </ul>
@@ -98,7 +98,7 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">                
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="index.php">
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
