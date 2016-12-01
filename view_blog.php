@@ -141,6 +141,16 @@
       </aside>
       <!--sidebar end-->
       <!--main content start-->
+      <section id="main-content">
+      <section class="wrapper">            
+              <!--overview start-->
+        <div class="row">
+        <div class="col-lg-12">
+         
+          <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
+            <li><i class="fa fa-laptop"></i>View All Posts</li> 
+            </ol>               
 
 
 <table width="1000" border="3" align="center" bgcolor="pink">
@@ -189,6 +199,16 @@ while ($row=mysqli_fetch_array($run)) {
 <?php } ?>
 	
 </table>
+</div>
+
+</div>
+      </div>
+          
+      </section>
+      <!--main content end-->
+  </section>
+  <!-- container section start -->
+
 
 <!-- javascripts -->
     <script src="js/jquery.js"></script>
