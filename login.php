@@ -36,9 +36,10 @@
 
     <div class="container">
 
-      <form class="login-form" action="login.php"  method="post">        
-        <div class="login-wrap">
 
+      <form class="login-form" action="login.php"  method="post"> 
+
+        <div class="login-wrap">
             <p class="login-img"><i class="icon_lock_alt"></i></p>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
