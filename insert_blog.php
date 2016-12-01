@@ -91,7 +91,7 @@
             </div>
       </header>      
       <!--header end-->
-      
+
       <!--sidebar start-->
       <aside>
           <div id="sidebar"  class="nav-collapse ">
@@ -146,6 +146,18 @@
       </aside>
       <!--sidebar end-->
       <!--main content start-->
+      <!--main content start-->
+      <section id="main-content">
+      <section class="wrapper">            
+              <!--overview start-->
+        <div class="row">
+        <div class="col-lg-12">
+         
+          <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
+            <li><i class="fa fa-laptop"></i>Add Blog Posts</li> 
+            </ol>   
+
 <body>
 <form method="post" action="insert_blog.php" enctype="multipart/form-data">
 	<table  width="600" align="center" border="3">
@@ -181,14 +193,17 @@
 		
 		<td align="center" colspan="6"><input type="submit" name="submit" value="Publish Now"></td>
 	</tr>
-
-	
-
-
-	
 		
 	</table>
 </form>
+
+</div>
+      </div>
+          
+      </section>
+      <!--main content end-->
+  </section>
+  <!-- container section start -->
 
 <!-- javascripts -->
     <script src="js/jquery.js"></script>
