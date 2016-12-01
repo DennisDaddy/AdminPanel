@@ -41,18 +41,108 @@
     <![endif]-->
   </head>
 
-<body>
-<div id="header">
-<a href="index.php"><h1>Welcome to the Admin Panel</h1></a>
+ <body>
+  <!-- container section start -->
+  <section id="container" class="">
+     
+      
+      <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+            </div>
 
-</div>
+            <!--logo start-->
+            <a href="index.html" class="logo">Admin<span class="lite">Area</span></a>
+            <!--logo end-->
 
-<div id="sidebar">
-	<h2><a href="logout.php">Logout</a></h2>
-	<h2><a href="view_blog.php">View Blogs</a></h2>
-	<h2><a href="insert_blog.php">Add Blog</a></h2>
-	
-</div> 
+            <div class="nav search-row" id="top_menu">
+                               
+            </div>
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="img/avatar3.png">
+                            </span>
+                            <span class="username">Admin</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>                          
+                    
+                            <li>
+                                <a href="login.php"><i class="icon_key_alt"></i> Log Out</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+      </header>      
+      <!--header end-->
+
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">                
+                  <li class="active">
+                      <a class="" href="index.php">
+                          <i class="icon_house_alt"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+				  <li class="sub-menu">
+                      <a href="view_posts.php" class="">
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                          <span>View News</span>
+                          </a>                      
+                  </li>       
+                  <li class="sub-menu">
+                      <a href="insert_post.php" class="">
+                          <i class="fa fa-plus" aria-hidden="true"></i>
+                          <span>Add News</span>
+                         
+                      </a>
+                      
+                  </li>
+                  <li>
+                      <a class="" href="insert_blog.php">
+                          <i class="fa fa-plus" aria-hidden="true"></i>
+                          <span>Add Blog Posts</span>
+                      </a>
+                  </li>
+                  <li>                     
+                      <a class="" href="view_blog.php">
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                          <span>View Blog Post</span>
+                          
+                      </a>
+                                         
+                  </li>
+                             
+                  <li class="sub-menu">
+                      <a href="logout.php" class="">
+                          <i class="fa fa-sign-out" aria-hidden="true"></i>
+                          <span>Logout</span>
+                          
+                      </a>
+                     
+                  </li>                  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      <!--main content start-->
+
+
 <table width="1000" border="3" align="center" bgcolor="pink">
 <tr>
 	<td colspan="8" align="center" bgcolor="white"><h1>View All Blog Posts</h1></td>
