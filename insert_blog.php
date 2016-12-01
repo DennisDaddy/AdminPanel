@@ -159,7 +159,7 @@
             </ol>   
 
 <body>
-<form method="post" action="insert_blog.php" enctype="multipart/form-data">
+<form method="post" action="insert_blog.php" enctype="multipart/form-data" role = "form">
  <div class="table-responsive"> 
 	<table  width="600" align="center" border="3">
 	<tr>
@@ -187,7 +187,7 @@
 	</tr>
 	<tr>
 		<td align="right">Blog Content</td>
-		<td><textarea name="content" cols="30" rows="15"></textarea></td>
+		<td><textarea class = "form-control" name="content" cols="30" rows="15"></textarea></td>
 	</tr>
 
 	<tr>
