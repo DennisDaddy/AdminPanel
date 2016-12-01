@@ -91,6 +91,61 @@
             </div>
       </header>      
       <!--header end-->
+      
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">                
+                  <li class="active">
+                      <a class="" href="index.php">
+                          <i class="icon_house_alt"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+				  <li class="sub-menu">
+                      <a href="view_posts.php" class="">
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                          <span>View News</span>
+                          </a>                      
+                  </li>       
+                  <li class="sub-menu">
+                      <a href="insert_post.php" class="">
+                          <i class="fa fa-plus" aria-hidden="true"></i>
+                          <span>Add News</span>
+                         
+                      </a>
+                      
+                  </li>
+                  <li>
+                      <a class="" href="insert_blog.php">
+                          <i class="fa fa-plus" aria-hidden="true"></i>
+                          <span>Add Blog Posts</span>
+                      </a>
+                  </li>
+                  <li>                     
+                      <a class="" href="view_blog.php">
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                          <span>View Blog Post</span>
+                          
+                      </a>
+                                         
+                  </li>
+                             
+                  <li class="sub-menu">
+                      <a href="logout.php" class="">
+                          <i class="fa fa-sign-out" aria-hidden="true"></i>
+                          <span>Logout</span>
+                          
+                      </a>
+                     
+                  </li>                  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      <!--main content start-->
 <body>
 <form method="post" action="insert_blog.php" enctype="multipart/form-data">
 	<table  width="600" align="center" border="3">
