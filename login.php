@@ -32,12 +32,11 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-
-  <body class="login-img3-body">
+<body class="login-img3-body">
 
     <div class="container">
 
-      <form class="login-form" action="index.php">        
+      <form class="login-form" action="login.php"  method="post">        
         <div class="login-wrap">
 
             <p class="login-img"><i class="icon_lock_alt"></i></p>
@@ -84,5 +83,3 @@ if (isset($_POST['login'])) {
     }
 }
 
-
-?>
